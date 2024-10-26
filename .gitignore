@@ -1,0 +1,17 @@
+﻿# Ignore core BotPress files and binaries
+/bp/
+node_modules/
+data/
+logs/
+modules/
+workspaces/
+
+# Ignore sensitive data
+.env
+*.env
+
+# Ignore OS and IDE-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
