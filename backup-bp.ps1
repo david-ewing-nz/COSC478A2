@@ -1,0 +1,1 @@
+Compress-Archive -Path "C:\bp" -DestinationPath "C:\bp_backup.zip"
