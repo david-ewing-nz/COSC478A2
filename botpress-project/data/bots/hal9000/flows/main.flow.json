@@ -1,0 +1,196 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Entry",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "search-query-prompt"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-o-c0P_"
+      ],
+      "onReceive": [
+        "captureGreeting {}"
+      ]
+    },
+    {
+      "id": "7497a7e54b",
+      "name": "fallback-response",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mixTSX"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "12f412303e",
+      "name": "search-query-prompt",
+      "next": [
+        {
+          "condition": "true",
+          "node": "debug-message"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tMxztZ"
+      ],
+      "onReceive": [
+        "captureUserQuery {\"name\":\"\",\"value\":\"\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d0e43c8068",
+      "name": "search-for-articles",
+      "next": [
+        {
+          "condition": "true",
+          "node": "display-article-list"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GeUPXD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bf708aa873",
+      "name": "display-article-list",
+      "next": [
+        {
+          "condition": "true",
+          "node": "prompt-for-user-action"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-omkB9p"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0e09a76954",
+      "name": "no-article-found",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zB-ffe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8113e0028f",
+      "name": "prompt-for-user-action",
+      "next": [
+        {
+          "condition": "true",
+          "node": "no-article-found"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Uvy6Ky"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6728a83656",
+      "name": "generate-summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": "display-summary"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8RXLiC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "948b197761",
+      "name": "generate-citation",
+      "next": [
+        {
+          "condition": "true",
+          "node": "display-citation"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qGz1c_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "14c4494e8e",
+      "name": "display-summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HQUDLw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "37972aa87a",
+      "name": "display-citation",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ll4J9B"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0b873a4a2d",
+      "name": "debug-message",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OqrNQr"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

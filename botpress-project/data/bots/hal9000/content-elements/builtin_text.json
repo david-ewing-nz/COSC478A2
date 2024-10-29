@@ -1,0 +1,145 @@
+[
+  {
+    "id": "builtin_text-mixTSX",
+    "formData": {
+      "text$en": "Could you rephrase?",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T00:32:37.362Z",
+    "modifiedOn": "2024-10-29T00:32:37.362Z"
+  },
+  {
+    "id": "builtin_text-o-c0P_",
+    "formData": {
+      "text$en": "{{userGreeting}},I’m here to help you find research articles. What would you like to search for (goggle scholar)?\"",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T04:41:01.900Z",
+    "modifiedOn": "2024-10-29T06:51:17.882Z"
+  },
+  {
+    "id": "builtin_text-PzQT48",
+    "formData": {
+      "text$en": "search-query: what would you like to search for? ",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:54:27.872Z",
+    "modifiedOn": "2024-10-29T05:54:27.872Z"
+  },
+  {
+    "id": "builtin_text-GeUPXD",
+    "formData": {
+      "text$en": "search-for:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:55:22.156Z",
+    "modifiedOn": "2024-10-29T05:55:22.156Z"
+  },
+  {
+    "id": "builtin_text-omkB9p",
+    "formData": {
+      "text$en": "display-article:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:56:34.026Z",
+    "modifiedOn": "2024-10-29T05:56:34.026Z"
+  },
+  {
+    "id": "builtin_text-tMxztZ",
+    "formData": {
+      "text$en": "search-query:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:57:16.124Z",
+    "modifiedOn": "2024-10-29T05:57:16.124Z"
+  },
+  {
+    "id": "builtin_text-Uvy6Ky",
+    "formData": {
+      "text$en": "prompt-for-action:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:58:53.327Z",
+    "modifiedOn": "2024-10-29T05:58:53.327Z"
+  },
+  {
+    "id": "builtin_text-zB-ffe",
+    "formData": {
+      "text$en": "no-article-found",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T05:59:23.894Z",
+    "modifiedOn": "2024-10-29T05:59:23.894Z"
+  },
+  {
+    "id": "builtin_text-8RXLiC",
+    "formData": {
+      "text$en": "generate-summary:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T06:00:30.225Z",
+    "modifiedOn": "2024-10-29T06:00:30.225Z"
+  },
+  {
+    "id": "builtin_text-HQUDLw",
+    "formData": {
+      "text$en": "display-summary:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T06:01:00.892Z",
+    "modifiedOn": "2024-10-29T06:01:00.892Z"
+  },
+  {
+    "id": "builtin_text-qGz1c_",
+    "formData": {
+      "text$en": "generate-citation:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T06:01:27.168Z",
+    "modifiedOn": "2024-10-29T06:01:27.168Z"
+  },
+  {
+    "id": "builtin_text-ll4J9B",
+    "formData": {
+      "text$en": "display-citation:",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T06:02:06.020Z",
+    "modifiedOn": "2024-10-29T06:02:06.020Z"
+  },
+  {
+    "id": "builtin_text-OqrNQr",
+    "formData": {
+      "text$en": "Captured greeting: {{userGreeting}}",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-29T07:03:40.082Z",
+    "modifiedOn": "2024-10-29T07:03:40.082Z"
+  }
+]

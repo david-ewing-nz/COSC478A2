@@ -1,0 +1,30 @@
+{
+  "name": "greeting",
+  "utterances": {
+    "en": [
+      "h﻿ow are you",
+      "w﻿hat can I help with",
+      "c﻿an I help",
+      "h﻿i there",
+      "a﻿loha",
+      "k﻿ia ora",
+      "n﻿i hau",
+      "n﻿i hau ma",
+      "g﻿lobal",
+      "h﻿ello"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "how are you",
+    "aloha",
+    "Kia ora",
+    "ni hau",
+    "ni hau ma",
+    "global",
+    "hello",
+    "hi there",
+    "can I help",
+    "what can I help with"
+  ]
+}
