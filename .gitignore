@@ -2,6 +2,7 @@
 /bp/
 node_modules/
 data/storage/
+/data/storage/core.sqlite
 logs/
 modules/
 workspaces/
