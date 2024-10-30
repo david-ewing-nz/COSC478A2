@@ -1,7 +1,7 @@
 ﻿# Ignore core BotPress files and binaries
 /bp/
 node_modules/
-#data/
+data/storage/
 logs/
 modules/
 workspaces/
