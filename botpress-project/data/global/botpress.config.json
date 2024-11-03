@@ -53,7 +53,7 @@
     },
     {
       "location": "MODULES_ROOT/bot-improvement",
-      "enabled": false
+      "enabled": true
     },
     {
       "location": "MODULES_ROOT/broadcast",
@@ -77,11 +77,11 @@
     },
     {
       "location": "MODULES_ROOT/google-speech",
-      "enabled": false
+      "enabled": true
     },
     {
       "location": "MODULES_ROOT/hitl",
-      "enabled": false
+      "enabled": true
     },
     {
       "location": "MODULES_ROOT/hitlnext",
@@ -97,11 +97,11 @@
     },
     {
       "location": "MODULES_ROOT/ndu",
-      "enabled": false
+      "enabled": true
     },
     {
       "location": "MODULES_ROOT/nlu",
-      "enabled": false
+      "enabled": true
     },
     {
       "location": "MODULES_ROOT/testing",

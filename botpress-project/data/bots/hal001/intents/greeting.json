@@ -1,0 +1,22 @@
+{
+  "name": "greeting",
+  "utterances": {
+    "en": [
+      "H﻿ello",
+      "H﻿i",
+      "H﻿i!",
+      "H﻿ello!",
+      "G﻿ood Morning!",
+      "K﻿ia Ora!",
+      "A﻿loha!",
+      "N﻿i Hau",
+      "N﻿i Hau Ma",
+      "Y﻿o!"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global",
+    "greeting-context"
+  ]
+}

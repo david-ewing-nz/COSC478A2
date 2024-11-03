@@ -1,0 +1,25 @@
+[
+  {
+    "id": "builtin_carousel-pO6z0-",
+    "formData": {
+      "typing$en": true,
+      "items$en": [
+        {
+          "markdown": false,
+          "title": "Button1",
+          "subtitle": "subtitle1",
+          "image": "/api/v1/bots/foobar/media/6x8yzf9fmjusjr7epnyn-Screenshot%202024-10-31%20125252.png"
+        },
+        {
+          "markdown": false,
+          "title": "button2",
+          "subtitle": "subtitle2",
+          "image": "/api/v1/bots/foobar/media/k23hquzhakrcybi7qb97-Screenshot%202024-10-31%20125537.png"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-30T23:55:55.043Z",
+    "modifiedOn": "2024-10-30T23:55:55.043Z"
+  }
+]

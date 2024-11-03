@@ -1,17 +1,19 @@
-  /**
-   * Small description of your action
-   * @title The title displayed in the flow editor
-   * @category Custom
-   * @author Your_Name
-   * @param {string} name - An example string variable
-   * @param {any} value - Another Example value
-   */
-  function action(bp, event) {
-    // Capture the user input text and store it in the 'userQuery' variable
-    const userQuery = event.payload.text
+ 
+   function action(state, event, { bp }) {
+    const previousQText = event.state.session.iniT;
+    const initialQuery = event.payload.text;
+    const QueryLength = initialQuery.length;
+  
+    // Store in session (persists across nodes)
+    event.state.session.iniQ = initialQuery;
+    event.state.session.Qlen = QueryLength;
+    console.log("Retrieved user query from session:", previousQText);
+    console.log('event.state.session query:', initialQuery);
+    console.dir(event.state.session, { depth: null });
+  
+    return state; // or return event.state if using session data
+    }
+    return action(state, { bp })
+    //return action(state, { bp })
 
-    // Set the 'userQuery' variable to be accessible in the flow
-    bp.dialog.setVar(event, 'userQuery', userQuery)
 
-    return Promise.resolve()
-  }

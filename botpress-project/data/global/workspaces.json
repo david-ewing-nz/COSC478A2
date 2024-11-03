@@ -4,7 +4,9 @@
     "name": "Default",
     "audience": "external",
     "bots": [
-      "hal9000"
+      "hal9000",
+      "foobar",
+      "hal001"
     ],
     "roles": [
       {

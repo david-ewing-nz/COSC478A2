@@ -1,0 +1,23 @@
+{
+  "$schema": "../../assets/modules/google-speech/config.schema.json",
+  "enabled": false,
+  "clientEmail": "your client email here",
+  "privateKey": "your private key here",
+  "confidenceThreshold": 0.5,
+  "maxAudioDuration": 30,
+  "languageMapping": {
+    "ar": "ar-AE",
+    "nl": "nl-NL",
+    "en": "en-US",
+    "fr": "fr-FR",
+    "de": "de-DE",
+    "he": "iw-IL",
+    "it": "it-IT",
+    "ja": "ja-JP",
+    "pl": "pl-PL",
+    "pt": "pt-PT",
+    "ru": "ru-RU",
+    "es": "es-ES"
+  },
+  "voiceSelection": "NEUTRAL"
+}

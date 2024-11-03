@@ -4,23 +4,23 @@
     "onReceive": [],
     "next": []
   },
-  "startNode": "Entry",
+  "startNode": "dummy-capture",
   "nodes": [
     {
       "id": "entry",
-      "name": "Entry",
+      "name": "dummy-capture",
       "next": [
         {
-          "condition": "true",
-          "conditionType": "always",
+          "condition": "event.payload.text && event.payload.text.length > 0",
+          "conditionType": "raw",
           "node": "search-query-prompt"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-o-c0P_"
+        "say #!builtin_text-Yao1Rz"
       ],
       "onReceive": [
-        "captureGreeting {}"
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"capturedText\",\"value\":\"{{event.payload.text}}\"}"
       ]
     },
     {
@@ -43,16 +43,15 @@
       "name": "search-query-prompt",
       "next": [
         {
-          "condition": "true",
+          "condition": "event.payload.text && event.payload.text.length > 0",
+          "conditionType": "raw",
           "node": "debug-message"
         }
       ],
       "onEnter": [
         "say #!builtin_text-tMxztZ"
       ],
-      "onReceive": [
-        "captureUserQuery {\"name\":\"\",\"value\":\"\"}"
-      ],
+      "onReceive": [],
       "type": "standard"
     },
     {
@@ -189,6 +188,19 @@
       "onEnter": [
         "say #!builtin_text-OqrNQr"
       ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7df0db3517",
+      "name": "Entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
       "onReceive": null,
       "type": "standard"
     }

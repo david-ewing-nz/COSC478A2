@@ -13,13 +13,13 @@
   {
     "id": "builtin_text-o-c0P_",
     "formData": {
-      "text$en": "{{userGreeting}},I’m here to help you find research articles. What would you like to search for (goggle scholar)?\"",
+      "text$en": "Kia Ora, I’m here to help you find research articles. What would you like to search for (goggle scholar)?\"",
       "markdown$en": false,
       "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2024-10-29T04:41:01.900Z",
-    "modifiedOn": "2024-10-29T06:51:17.882Z"
+    "modifiedOn": "2024-10-30T20:51:08.499Z"
   },
   {
     "id": "builtin_text-PzQT48",
@@ -57,13 +57,13 @@
   {
     "id": "builtin_text-tMxztZ",
     "formData": {
-      "text$en": "search-query:",
+      "text$en": "search-query-prompt say somthing text : You previously entered: {{capturedText}}. ",
       "markdown$en": false,
       "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2024-10-29T05:57:16.124Z",
-    "modifiedOn": "2024-10-29T05:57:16.124Z"
+    "modifiedOn": "2024-11-02T07:54:46.198Z"
   },
   {
     "id": "builtin_text-Uvy6Ky",
@@ -134,12 +134,23 @@
   {
     "id": "builtin_text-OqrNQr",
     "formData": {
-      "text$en": "Captured greeting: {{userGreeting}}",
+      "text$en": "Captured greeting: {{initialInput}}",
       "markdown$en": false,
       "typing$en": true
     },
     "createdBy": "admin",
     "createdOn": "2024-10-29T07:03:40.082Z",
-    "modifiedOn": "2024-10-29T07:03:40.082Z"
+    "modifiedOn": "2024-10-31T22:10:29.641Z"
+  },
+  {
+    "id": "builtin_text-Yao1Rz",
+    "formData": {
+      "text$en": "Dummy Capture Say Something Text ",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-10-31T23:28:50.784Z",
+    "modifiedOn": "2024-11-02T07:55:18.838Z"
   }
 ]

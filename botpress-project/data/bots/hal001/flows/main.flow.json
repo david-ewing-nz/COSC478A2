@@ -1,0 +1,165 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "66b10c844b",
+      "name": "search-for-articles",
+      "next": [
+        {
+          "condition": "session.textLength  !==4",
+          "conditionType": "props",
+          "node": ""
+        },
+        {
+          "condition": "session.textLength ==4",
+          "conditionType": "props",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [
+        "searchGoogle {}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "238cb16ad9",
+      "name": "no-article-found",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "83dd80bd03",
+      "name": "display-article-list",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "34f958bbab",
+      "name": "Prompt-for-User-Action",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e8090c72a4",
+      "name": "Generate-Summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6ed32a9e54",
+      "name": "Display-Summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d77a8177c4",
+      "name": "Generate-Citation",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6aa36b916e",
+      "name": "Display-Citation",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7a201a74ba",
+      "name": "entry-fallback",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-MRqhiK"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "session.query  =='christchurch'",
+          "conditionType": "raw",
+          "node": "search-for-articles"
+        },
+        {
+          "condition": "user.textLength   !==4",
+          "conditionType": "props",
+          "node": "Prompt-for-User-Action"
+        },
+        {
+          "condition": "user.textLength    ==4",
+          "conditionType": "props",
+          "node": "Generate-Summary"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xr3aD5"
+      ],
+      "onReceive": [
+        "searchGoogle {}"
+      ]
+    }
+  ]
+}

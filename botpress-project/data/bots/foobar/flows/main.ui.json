@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": -85,
+        "y": -145
+      }
+    },
+    {
+      "id": "0b6418caf5",
+      "position": {
+        "x": 250,
+        "y": 0
+      }
+    },
+    {
+      "id": "c4fbc594b1",
+      "position": {
+        "x": 250,
+        "y": -125
+      }
+    },
+    {
+      "id": "fe3ab06d11",
+      "position": {
+        "x": 250,
+        "y": 105
+      }
+    },
+    {
+      "id": "a535e0898a",
+      "position": {
+        "x": 565,
+        "y": 20
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0b6418caf5",
+      "sourcePort": "out0",
+      "target": "a535e0898a",
+      "points": [
+        {
+          "x": 450,
+          "y": 73
+        },
+        {
+          "x": 565,
+          "y": 37
+        }
+      ]
+    },
+    {
+      "source": "c4fbc594b1",
+      "sourcePort": "out0",
+      "target": "a535e0898a",
+      "points": [
+        {
+          "x": 450,
+          "y": -52
+        },
+        {
+          "x": 565,
+          "y": 37
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out1",
+      "target": "0b6418caf5",
+      "points": [
+        {
+          "x": 115,
+          "y": -1
+        },
+        {
+          "x": 250,
+          "y": 17
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "c4fbc594b1",
+      "points": [
+        {
+          "x": 115,
+          "y": -27
+        },
+        {
+          "x": 250,
+          "y": -108
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out2",
+      "target": "fe3ab06d11",
+      "points": [
+        {
+          "x": 115,
+          "y": 25
+        },
+        {
+          "x": 250,
+          "y": 122
+        }
+      ]
+    },
+    {
+      "source": "fe3ab06d11",
+      "sourcePort": "out0",
+      "target": "a535e0898a",
+      "points": [
+        {
+          "x": 450,
+          "y": 178
+        },
+        {
+          "x": 565,
+          "y": 37
+        }
+      ]
+    }
+  ]
+}

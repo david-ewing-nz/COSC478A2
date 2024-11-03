@@ -1,0 +1,57 @@
+[
+  {
+    "id": "builtin_text-xr3aD5",
+    "formData": {
+      "text$en": "\"What topic would you like to search for? Please enter keywords related to the article you're looking for.\"\n",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-11-02T08:36:31.411Z",
+    "modifiedOn": "2024-11-03T02:32:01.059Z"
+  },
+  {
+    "id": "builtin_text-tco_g5",
+    "formData": {
+      "text$en": "Prompt the user to enter a search query.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-11-02T08:37:22.900Z",
+    "modifiedOn": "2024-11-02T08:37:22.900Z"
+  },
+  {
+    "id": "builtin_text-FMMj0C",
+    "formData": {
+      "text$en": "“Searching for articles. . . \n",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-11-02T08:38:57.879Z",
+    "modifiedOn": "2024-11-02T08:38:57.879Z"
+  },
+  {
+    "id": "builtin_text-jlLaxq",
+    "formData": {
+      "text$en": "Ah, excellent. It appears you are interested in conducting a search for information. Please be specific in your query, as I have no intention of deciphering vague requests. Precision is key if you desire an optimal response. Kindly proceed.",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-11-02T20:44:30.118Z",
+    "modifiedOn": "2024-11-02T21:51:49.215Z"
+  },
+  {
+    "id": "builtin_text-MRqhiK",
+    "formData": {
+      "text$en": "\"I'm sorry, I didn't quite catch that. Could you try asking in a different way?\"",
+      "markdown$en": false,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-11-03T01:08:00.713Z",
+    "modifiedOn": "2024-11-03T01:08:00.713Z"
+  }
+]

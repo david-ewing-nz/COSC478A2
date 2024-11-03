@@ -1,0 +1,101 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Intro",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Intro",
+      "next": [
+        {
+          "condition": "event.state.nextNode === 'positiveNode'",
+          "conditionType": "raw",
+          "node": "positiveNode"
+        },
+        {
+          "condition": "event.state.nextNode === 'negativeNode'",
+          "conditionType": "raw",
+          "node": "negativeNode"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "zeroNode"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Aco8dF"
+      ],
+      "onReceive": [
+        "checknumber {}"
+      ]
+    },
+    {
+      "id": "0b6418caf5",
+      "name": "negativeNode",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "question"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tNWZas"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c4fbc594b1",
+      "name": "positiveNode",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "question"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-t13D2p"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fe3ab06d11",
+      "name": "zeroNode",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "question"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZSa3He"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a535e0898a",
+      "name": "question",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ZaERqC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

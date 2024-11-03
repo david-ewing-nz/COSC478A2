@@ -1,0 +1,23 @@
+{
+  "name": "search-article",
+  "utterances": {
+    "en": [
+      "Find",
+      "Search for",
+      "Look up",
+      "p﻿rovide",
+      "d﻿iscover",
+      "l﻿ocate",
+      "d﻿ata",
+      "c﻿ontent",
+      "d﻿etail",
+      "r﻿esearch",
+      "lookup"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global",
+    "search-intent"
+  ]
+}
